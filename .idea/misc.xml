@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/drawable/button_color.xml" value="0.2055" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/drawable/custom_editext.xml" value="0.2055" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/drawable/custom_edittext.xml" value="0.121" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/drawable/text_view_title_dialog.xml" value="0.2055" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/layout/activity_add_product.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/layout/activity_dialog_delete.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/layout/activity_edit_product.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/layout/dialog_delete_product.xml" value="0.1592920353982301" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/DataBase_ProductManagement/app/src/main/res/layout/row_product.xml" value="0.21784420289855072" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

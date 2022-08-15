@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".EditProductActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewAddTitle"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_color"
+            android:gravity="center"
+            android:text="Welcome To Add New Product"
+            android:textColor="#EDE5E5"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editTextNameAdd"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textViewAddTitle"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Product Name"
+            android:textColor="#802727"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editTextPriceAdd"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/editTextNameAdd"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Product Name"
+            android:textColor="#802727"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnCancelAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPriceAdd"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/btnAddProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPriceAdd"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/btnCancelAdd"
+            android:text="Create" />
+    </RelativeLayout>
+</LinearLayout>
